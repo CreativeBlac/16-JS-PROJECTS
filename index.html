@@ -13,6 +13,7 @@
             color: #080808;
             font-size: 1.2rem;
             font-weight: 400;
+            text-transform: capitalize;
         }
         
         body {
@@ -24,8 +25,8 @@
             background-position: center center;
             background-repeat: no-repeat;
             flex-wrap: wrap;
-            padding-left: 22px;
             padding-top: 28px;
+            flex-direction: column;
         }
         
         a {
@@ -46,6 +47,19 @@
             text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.5);
         }
         
+        .container-main {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        @media (max-width:400px) {
+            body {
+                padding-left: 0;
+            }
+        }
+        
         .container {
             color: #fff;
             transition: color 0.2s;
@@ -57,53 +71,105 @@
             border-color: orange;
             color: orange;
         }
+        
+        h1 {
+            text-align: center;
+            color: #fff;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 3.3rem;
+            width: 100%;
+        }
     </style>
 </head>
 
 <body>
+    <h1>16 JavaScript Projects</h1>
+    <div class="container-main">
+        <a href="sticky navbar/index.html" target="_blank">
+            <div class="container" target="_blank">
+                Sticky Navbar
+            </div>
+        </a>
+        <a href="random color generator/index.html" target="_blank">
+            <div class="container">
+                Random Color Generator
+            </div>
+        </a>
+        <a href="digitalapp.html" target="_blank">
+            <div class="container">
+                Digital Clock
+            </div>
+        </a>
+        <a href="multiplication-app/index.html" target="_blank">
+            <div class="container">
+                Multiplication App
+            </div>
+        </a>
+        <a href="Taps Project/index.html" target="_blank">
+            <div class="container">
+                Taps Project
+            </div>
+        </a>
+        <a href="heart-tracking/index.html" target="_blank">
+            <div class="container">
+                Heart Trail Animation
+            </div>
+        </a>
+        <a href="character counter/index.html" target="_blank">
+            <div class="container">
+                Character Counter
+            </div>
+        </a>
+        <a href="button-ribbling-effect/index.html" target="_blank">
+            <div class="container">
+                Button Ribbling Effect
+            </div>
+        </a>
+        <a href="Dark Mode Toggle/index.html" target="_blank">
+            <div class="container">
+                Dark Mode Toggle
+            </div>
+        </a>
+        <a href="auto text effect animation/index.html" target="_blank">
+            <div class="container">
+                text effect animation
+            </div>
+        </a>
+        <a href="Drum Kits/index.html" target="_blank">
+            <div class="container">
+                Drum Kits
+            </div>
+        </a>
+        <a href="Random Photoes/index.html" target="_blank">
+            <div class="container">
+                Random Photoes
+            </div>
+        </a>
+        <a href="Image Slider/index.html" target="_blank">
+            <div class="container">
+                Image Slider
+            </div>
+        </a>
+        <a href="Video  Trail Popup/index.html" target="_blank">
+            <div class="container">
+                Video Trail Popup
+            </div>
+        </a>
+        <a href="blurred background popup/index.html" target="_blank">
+            <div class="container">
+                blurred background popup
+            </div>
+        </a>
+        <a href="background imae scroll effect/index.html" target="_blank">
+            <div class="container">
+                Background Scroll Effect
+            </div>
+        </a>
 
-    <a href="sticky navbar/index.html" target="_blank">
-        <div class="container">
-            Sticky Navbar
-        </div>
-    </a>
-    <a href="random color generator/index.html" target="_blank">
-        <div class="container">
-            Random Color Generator
-        </div>
-    </a>
-    <a href="digitalapp.html" target="_blank">
-        <div class="container">
-            Digital Clock
-        </div>
-    </a>
-    <a href="multiplication-app/index.html" target="_blank">
-        <div class="container">
-            Multiplication App
-        </div>
-    </a>
-    <a href="index.html" target="_blank">
-        <div class="container">
-            Progress Bar
-        </div>
-    </a>
-    <a href="heart-tracking/index.html" target="_blank">
-        <div class="container">
-            Heart Trail Animation
-        </div>
-    </a>
-    <a href="character-counter/index.html" target="_blank">
-        <div class="container">
-            Character Counter
-        </div>
-    </a>
-    <a href="button-ribbling-effect/index.html" target="_blank">
-        <div class="container">
-            Button Ribbling Effect
-        </div>
-    </a>
+    </div>
 
-    <script src="home.js"></script>
+
+    <script src="index.js"></script>
 </body>
 
 </html>

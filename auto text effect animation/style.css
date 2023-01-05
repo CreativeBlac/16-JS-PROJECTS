@@ -1,0 +1,9 @@
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    margin: 0;
+    align-items: center;
+    background-color: salmon;
+    font-family: cursive;
+}
