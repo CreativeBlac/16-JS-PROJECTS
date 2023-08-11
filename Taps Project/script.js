@@ -4,7 +4,7 @@ const articles = document.querySelectorAll(".content");
 
 taps.addEventListener("click", (event) => {
     const id = event.target.dataset.id;
-
+console.log('id');
     if (id) {
         btns.forEach((btn) => {
             btn.classList.remove("live");
